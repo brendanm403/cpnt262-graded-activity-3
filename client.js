@@ -169,7 +169,7 @@ targetElement = document.getElementById("object-new");
 // create a new date object //
 render = new Date();
 // render the current date //
-targetElement.innerHTML = `${render.getMonth()} ${render.getDate()} ${render.getFullYear()}`;
+targetElement.innerHTML = `${render.getMonth() + 1} ${render.getDate()} ${render.getFullYear()}`;
 
 // select element to render in //
 targetElement = document.getElementById("object-delete");
